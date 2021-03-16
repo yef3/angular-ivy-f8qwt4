@@ -1,0 +1,122 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap');
+
+html{
+  height:100%;
+  background-color: black;
+
+}
+.gameboard {
+  font-family: 'Raleway', sans-serif;;
+  margin: 0 7% 0 7%;
+  height: 100%;
+  width: 86%;
+  position: absolute;
+  border: none;
+  border-radius: 40px 40px 0 0;
+  animation: purple-bg 8s infinite;
+  /* animation-duration: 8s;
+  animation-iteration-count: infinite; */
+}
+
+@keyframes purple-bg {
+  0%   {background-color: #7384FF;}
+  25%  {background-color: #6573DC;}
+  50%  {background-color: #515CB0}
+  75%  {background-color: #6573DC;}
+  100% {background-color: #7384FF;}
+}
+
+@keyframes green-bg {
+  0%   {background-color: #7BE495;}
+  25%  {background-color: #56C596;}
+  50%  {background-color: #329d9c}
+  75%  {background-color: #56C596;}
+  100% {background-color: #7BE495;}
+}
+
+.enter {
+  width: 40%;
+  height: 3em;
+  border: none;
+  text-align: right;
+  font-size: 1em;
+  display: inline-block;
+  margin: 2px;
+  border-radius: 15px;
+}
+
+.userid{
+  background-color: rgb(0,0,0,0.1) ;
+  /* color: rgb(0, 0, 0); */
+  text-align: right;
+  display: inline-block;
+  min-width: 100%;
+  box-shadow: none;
+  color: white;
+}
+
+.userid:focus{
+  border:none;
+  box-shadow: none;
+  box-shadow: 1px 1px rgb(0,0,0,0.3);
+}
+
+.userpoints {
+  color: #fff;
+  padding-right:1em;
+  font-weight: bold;
+  display: inline;
+  background-color: rgb(0,0,0,0.8);
+}
+
+.table {
+  width: 90%;
+  margin: 1% 5% 1% 5%;
+  padding: 1%;
+  height: 70%;
+  border-radius: 20px;
+  border: none;
+  font-size: 2rem;
+  background-color: rgb(0,0,0,0.3);
+  text-align: left;
+}
+
+img{
+  height: 100%;
+  width: auto;
+}
+
+
+.shared-hand {
+  height: 49%;
+  width: 100%;
+  margin: 3px;
+}
+
+.user-hand {
+  margin: 3px;
+  height: 49%;
+  width: 100%;
+
+}
+
+button{
+  background-color: white;
+  border:none;
+  color:#34558B;
+  font-weight:bold;
+}
+
+button:hover{
+  background-color: rgb(0,0,0,0.3);
+}
+
+.line1{
+  margin-left: 7%; 
+}
+
+.line2{
+  margin-top: 3.5%;
+  margin-left: 7%; 
+}
