@@ -1,16 +1,17 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { AjaxComponent } from './ajax/ajax.component';
-import { PokerComponent } from './components/poker/poker.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PokerComponent
+    AjaxComponent
   ],
   imports: [
+    HttpClientModule,
     BrowserModule
   ],
   providers: [],
