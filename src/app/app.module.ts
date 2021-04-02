@@ -4,11 +4,13 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { JensenComponent } from './jensen/jensen.component';
+import { FanyeComponent } from './fanye/fanye.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     JensenComponent,
+    FanyeComponent,
   ],
   imports: [
     HttpClientModule,
