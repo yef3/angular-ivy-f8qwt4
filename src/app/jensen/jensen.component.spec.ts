@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AjaxComponent } from './ajax.component';
+import { JensenComponent } from './jensen.component';
 
-describe('AjaxComponent', () => {
-  let component: AjaxComponent;
-  let fixture: ComponentFixture<AjaxComponent>;
+describe('JensenComponent', () => {
+  let component: JensenComponent;
+  let fixture: ComponentFixture<JensenComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AjaxComponent ]
+      declarations: [ JensenComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AjaxComponent);
+    fixture = TestBed.createComponent(JensenComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

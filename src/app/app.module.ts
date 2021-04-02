@@ -3,12 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { AjaxComponent } from './ajax/ajax.component';
+import { JensenComponent } from './jensen/jensen.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AjaxComponent
+    JensenComponent,
   ],
   imports: [
     HttpClientModule,

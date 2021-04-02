@@ -1,0 +1,33 @@
+.search_bar {
+    margin-left: 20%;
+    width: 60%;
+    height: 30%;
+    border: 7px solid grey;
+    border-radius: 10px;
+    padding: 25px;
+    background-color:rgba(253, 253, 253,0.8);
+}
+
+.search_input {
+    width: 40%;
+    background-color: rgba(0,0,0,0);
+    display:inline-block;
+    border: 2px solid grey;
+    margin-right: 1%;
+    padding-left: 5px;
+}
+
+.search_button {
+    border: 2px solid grey;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.city_name {
+    margin-top: 15px;
+    font-weight: bolder;
+}
+
+.city_Country {
+    font-weight: bold;
+}
